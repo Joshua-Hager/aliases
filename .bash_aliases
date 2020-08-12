@@ -5,6 +5,7 @@ alias kk="ll"
 #### Docker ####
 alias dc="docker-compose"
 alias dps="docker ps -a"
+alias dpsf="docker ps --format \"table {{.ID}}\t{{.Names}}\t{{.Ports}}\t{{.Status}}\""
 
 # takes container name as arg
 function dit() {
